@@ -6,7 +6,7 @@ let currentStoryIndex = 0;
       {
         //text 0
         text: "Let's test if you are truly Mable's friend",
-        imageSrc: 'img01.png',
+        imageSrc: 'Myproject/img01.png',
         choices: [
           { text: "Okay, Let's do it!", nextIndex: 1 },
           { text: "No, I don't want", nextIndex: 2 }
