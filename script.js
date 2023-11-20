@@ -154,7 +154,7 @@ let currentStoryIndex = 0;
         text: "I wish I know how.",
         imageSrc: 'img18.png',
         choices: [
-          { text: "You go to sleep now, maybe you will get the answer in your dream.", nextIndex: 18 },
+          { text: "You go to sleep now, maybe you will get the answer in your dream.", nextIndex: 19 },
           { text: "I believe you will figure out someday", nextIndex: 18 }
         ]
       },
