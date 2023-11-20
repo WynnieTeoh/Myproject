@@ -8,12 +8,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 140vh;
   }
   
   #story-container {
     max-width: 600px;
-    padding: 20px;
+    padding: 50px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
@@ -24,11 +24,17 @@ body {
     margin-bottom: 20px;
     font-size: 18px;
   }
-  
-  .button-container {
+
+
+.button-container {
     display: flex;
     justify-content: space-around;
-  }
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
   
   button {
     padding: 12px 20px;
@@ -44,4 +50,14 @@ body {
   button:hover {
     background-color: #ff6680;
   }
-  
+
+  img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: auto;
+    height: 40%;
+    border: 10px solid #fff; /* Add a 2px black border */
+    border-radius: 30px; /* Optional: Add border-radius */
+  }
